@@ -1,0 +1,47 @@
+git checkout -b accept_header_version origin/accept_header_version
+git checkout -b content_negotiation origin/content_negotiation
+git checkout -b http_basic_auth origin/http_basic_auth
+git checkout -b master origin/master
+git checkout -b post_method origin/post_method
+git checkout -b post_put_patch_delete_methods origin/post_put_patch_delete_methods
+git checkout -b resources_and_get origin/resources_and_get
+git checkout -b routes origin/routes
+git checkout -b status_codes origin/status_codes
+git checkout -b token_based_authentication origin/token_based_authentication
+git checkout -b uri_version origin/uri_version
+
+
+git merge accept_header_version content_negotiation http_basic_auth post_method post_put_patch_delete_methods resources_and_get routes status_codes token_based_authentication uri_version
+
+
+
+>> Vai para o branch "all"
+git checkout all
+
+>> Merge
+git merge accept_header_version
+
+>> Corrige todos os conflitos (instruções abaixo)
+>> Como corrigir cada conflito manualmente mais rapidamente
+fix conflicts manually using package "Git Conflict Resolver"
+ctrl+alt+c listar arquivos conflitantes
+ctrl+alt+o (ours) or +d (deles)   aceitar determinada opção (usualmente ours ctrl+alt+o é a melhor)
+Ao término, 
+
+>> Finalmente fazer o merge
+git add .
+git commit -m "Merge accept_header_version" 
+git merge accept_header_version
+
+>> Para cada item da lista! Aproveita para aprender sobre cada mudança
+done git merge accept_header_version
+git merge content_negotiation
+git merge http_basic_auth
+git merge master
+git merge post_method
+git merge post_put_patch_delete_methods
+git merge resources_and_get
+git merge routes
+git merge status_codes
+git merge token_based_authentication
+git merge uri_version
