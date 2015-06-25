@@ -8,4 +8,8 @@ module V2
       @api_version = 'Two'
     end
   end
+<<<<<<< .merge_file_IQyh3t
 end
+=======
+end
+>>>>>>> .merge_file_l3Arbx
